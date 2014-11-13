@@ -4,7 +4,7 @@ include nginx
 include firewall
 
 nginx::resource::vhost { 'localhost':
-  www_root => '/var/www/site1',
+  www_root => '/var/www/html/www.standaard.be/',
   listen_port => '9000',
 
 }
